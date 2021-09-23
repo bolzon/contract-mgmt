@@ -1,0 +1,22 @@
+{
+  "contract": {
+    "id": 9,
+    "total": 1000,
+    "currency_code": "EUR",
+    "payment_type": "full",
+    "payment_timing": "begin",
+    "payment_period": "yearly",
+    "payment_amount": 1000,
+    "payment_currency_code": "EUR",
+    "auto_renew": null,
+    "cancel_early": null,
+    "description": "Service contract - cleaning ",
+    "endDate": "2021-03-01",
+    "beginDate": "2020-10-01",
+    "duration": 6,
+    "duration_type": "months",
+    "status": "active",
+    "createdAt": "2020-09-21T19:00:27.496Z",
+    "updatedAt": "2020-10-09T07:32:12.153Z"
+  }
+}
