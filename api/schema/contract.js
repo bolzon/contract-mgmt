@@ -2,7 +2,7 @@ const joi = require('joi');
 
 const ContractSchema = joi.object({
     auto_renew:             joi.boolean(),
-    beginDate:              joi.string().pattern(/\d{4}-\d{2}-\d{2}$/, 'ISO date'),
+    beginDate:              joi.string().pattern(/^\d{4}-\d{2}-\d{2}$/, 'ISO date'),
     cancel_early:           joi.boolean(),
     currency_code:          joi.string(),
     description:            joi.string(),

@@ -13,3 +13,5 @@ app.get('/contracts/:id(\\d+)', contracts.list);
 app.put('/contracts/:id(\\d+)', contracts.update);
 
 app.listen(PORT, () => console.log(`Server up on port ${PORT}`));
+
+module.exports = app;
